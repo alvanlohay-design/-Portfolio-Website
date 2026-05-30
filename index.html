@@ -1,77 +1,262 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Portfolio Website</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Alvan Lohay Portfolio</title>
 </head>
-<body>
-    <header>
-        <div class="container">
-            <div class="logo">
-                <nav>
-                    <a href="#home">Home</a>
-                    <a href="#about">About</a>
-                    <a href="#skills">Skills</a>
-                    <a href="#project">Project</a>
-                </nav>
-            </div>
+
+
+<body id="home">
+
+
+  <!-- NAVBAR -->
+
+
+  <nav>
+    <h1>Alvan Lohay</h1>
+
+
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+
+  <!-- HERO -->
+
+
+  <section class="hero">
+
+
+    <div class="hero-content">
+
+
+      <h2>Hello, I'm <span>Alvan Lohay</span></h2>
+
+
+      <p>
+        A creative student passionate about web design, coding, animations,
+        and building modern digital experiences using HTML, CSS and JavaScript.
+      </p>
+
+
+      <div class="buttons">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="#contact" class="btn btn-secondary">Contact Me</a>
+      </div>
+
+
+    </div>
+
+
+  </section>
+
+
+  <!-- ABOUT -->
+
+
+  <section class="about" id="about">
+
+
+    <h2 class="section-title">About Me</h2>
+
+
+    <div class="about-container">
+
+
+      <div class="about-card">
+        <h3>Who I Am</h3>
+
+
+        <p>
+          I am a young developer who loves creating modern websites
+          with animations, gradients, glowing effects and beautiful layouts.
+        </p>
+      </div>
+
+
+      <div class="about-card">
+        <h3>My Goal</h3>
+
+
+        <p>
+          My dream is to become a professional software developer
+          and build amazing projects that inspire people around the world.
+        </p>
+      </div>
+
+
+    </div>
+
+
+  </section>
+
+
+  <!-- SKILLS -->
+
+
+  <section class="skills" id="skills">
+
+
+    <h2 class="section-title">My Skills</h2>
+
+
+    <div class="skills-grid">
+
+
+      <div class="skill-card">
+        <span class="skill-icon">🌐</span>
+        <h3>HTML5</h3>
+        <p>Creating modern and responsive website structures.</p>
+      </div>
+
+
+      <div class="skill-card">
+        <span class="skill-icon">🎨</span>
+        <h3>CSS3</h3>
+        <p>Designing beautiful layouts, animations and effects.</p>
+      </div>
+
+
+      <div class="skill-card">
+        <span class="skill-icon">⚡</span>
+        <h3>JavaScript</h3>
+        <p>Making websites interactive and dynamic.</p>
+      </div>
+
+
+      <div class="skill-card">
+        <span class="skill-icon">💡</span>
+        <h3>Creativity</h3>
+        <p>Building unique and modern user experiences.</p>
+      </div>
+
+
+    </div>
+
+
+  </section>
+
+
+  <!-- PROJECTS -->
+
+
+  <section class="projects" id="projects">
+
+
+    <h2 class="section-title">Projects</h2>
+
+
+    <div class="project-grid">
+
+
+      <div class="project-card">
+
+
+        <div class="project-image">
+          <span class="project-icon">💻</span>
+          <span class="project-image-title">Project 1</span>
         </div>
-        </header>
-        <section class="hero" id="home">
-            <h2>Hi iam a web developer</h2>
-            <p>I build modern responsive websites and web applications</p>
-            <button class="btn">Hire Me</button>
-        </section>
 
-        <section class="about" id="about">
-            <h2>About me</h2>
-            <p>Hellow iam Alvan i like to buld websites</p>
-        </section>
 
-        <section class="skills" id="skills">
-            <h2>My skills</h2>
-            <div class="skills container">
-                <ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JAVASCRIPT and git</li>
-                </ul>
-            </div>
-        </section>
+        <div class="project-content">
+          <h3>Modern Website</h3>
+          <p>
+            A responsive and animated website with glowing UI effects and gradients.
+          </p>
+        </div>
 
-        <section class="project" id="project">
-            <h2>My project</h2>
-            <div class="project grid">
-                <div class="card">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtWCk3w6896r1MVqP70LUlAEXhgOxyHwUDXg&s" alt="my project image">
-                    <p>This is an image of code</p>
-                </div>
-            </div>
-        </section>
 
-        <section class="contact" id="contact">
-            <form>
-                <label for="full name">Full name:
-                    <input type="" class="full name" required>
-                </label>
+      </div>
 
-                <label for="email">Email:
-                    <input type="text" class="email" required>
-                </label>
 
-                <label for="message">Message:
-                <textarea name="message" id="message" cols="30" rows="10" placeholder="Write your message" required></textarea>
-                <br>
-                </label>
-                <br>
-                <br>
-                <button>SUBMIT</button>
-            </form>
-        </section>
-    <footer>
-        <p>Copyright 2026 Portfolio Website All Rights Reserved</p>
-    </footer>
+      <div class="project-card">
+
+
+        <div class="project-image">
+          <span class="project-icon">🚀</span>
+          <span class="project-image-title">Project 2</span>
+        </div>
+
+
+        <div class="project-content">
+          <h3>Creative Portfolio</h3>
+          <p>
+            A stylish portfolio website with cards, hover effects and animations.
+          </p>
+        </div>
+
+
+      </div>
+
+
+      <div class="project-card">
+
+
+        <div class="project-image">
+          <span class="project-icon">✨</span>
+          <span class="project-image-title">Project 3</span>
+        </div>
+
+
+        <div class="project-content">
+          <h3>Animated Landing Page</h3>
+          <p>
+            A beautiful landing page featuring gradients and floating effects.
+          </p>
+        </div>
+
+
+      </div>
+
+
+    </div>
+
+
+  </section>
+
+
+  <!-- CONTACT -->
+
+
+  <section class="contact" id="contact">
+
+
+    <h2 class="section-title">Contact</h2>
+
+
+    <div class="contact-box">
+
+
+      <p>
+        Interested in working with me or seeing more of my projects?
+        Feel free to reach out and connect with me.
+      </p>
+
+
+      <a href="mailto:your.alvanlohay@gmail.com" class="btn btn-primary">
+        Send Message
+      </a>
+
+
+    </div>
+
+
+  </section>
+
+
+  <!-- FOOTER -->
+
+
+  <footer>
+    © 2026 Alvan Lohay  Portfolio Website
+  </footer>
+
+
 </body>
 </html>
